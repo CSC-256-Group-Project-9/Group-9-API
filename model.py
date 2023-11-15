@@ -1,3 +1,9 @@
+"""
+Database model definitions
+
+@author Anthony Epps
+"""
+
 from sqlalchemy import Column, Integer, String
 from config import Base
 

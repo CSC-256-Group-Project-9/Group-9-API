@@ -1,3 +1,9 @@
+"""
+FAST API route implmentations
+
+@author Anthony Epps
+"""
+
 from fastapi import APIRouter, HTTPException, Path, Depends
 from config import SessionLocal
 from sqlalchemy.orm import Session

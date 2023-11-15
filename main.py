@@ -1,3 +1,8 @@
+"""
+Main function of API
+
+@author Anthony Epps
+"""
 from fastapi import FastAPI
 import model
 from config import engine

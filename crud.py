@@ -1,3 +1,9 @@
+"""
+Manage CRUD Operations
+
+@author Anthony Epps
+"""
+
 from sqlalchemy.orm import Session
 from model import Student
 from schemas import StudentSchema

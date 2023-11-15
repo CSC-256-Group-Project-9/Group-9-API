@@ -1,3 +1,9 @@
+"""
+Database Schema configs
+
+@author Anthony Epps
+"""
+
 from typing import List, Optional, Generic, TypeVar
 from pydantic import BaseModel, Field
 from pydantic.generics import GenericModel
