@@ -21,8 +21,8 @@ def get_db():
 
 @router.post('/create')
 async def create(request:RequestStudent,db:Session=Depends(get_db)):
-    crud.create_student(db,student=request.parameter)
-    return Response(code="200",status="OK",message="Student successfully created",result="").dict(exclude_none=True)
+    _student = crud.create_student(db,student=request.parameter)
+    return Response(code="200",status="OK",message="Student successfully created",result=_student).dict(exclude_none=True)
 
 @router.get('/')
 async def get(db:Session=Depends(get_db)):
