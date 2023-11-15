@@ -6,6 +6,8 @@
 
 ## Endpoints
 
+[Official Docs](https://group-9-api.vercel.app/docs)
+
 ![alt text](assets/endpoints.png "Endpoints")
 
 ### Documentation
